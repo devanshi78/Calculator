@@ -4,8 +4,8 @@ using namespace std;
 int sum(int a, int b) {return a + b; }
 int sub(int a, int b) {return a - b; }
 int mul(int a, int b) {return a * b; }
-int mod(int a, int b) {return a % b; }
 int divi(int a, int b) {return a / b; }
+int mod(int a, int b) {return a % b; }
 
 int main()
 {
@@ -66,7 +66,7 @@ int main()
                 cin>>b;
 
                 cout<<endl<<"-------------------"<<endl<<endl;
-                cout<<"sub of two number: "<<mod(a,b)<<endl;
+                cout<<"sub of two number: "<<divi(a,b)<<endl;
                 
                 break;
             case 5 :
@@ -77,7 +77,7 @@ int main()
                 cin>>b;
 
                 cout<<endl<<"-------------------"<<endl<<endl;
-                cout<<"sub of two number: "<<divi(a,b)<<endl;
+                cout<<"sub of two number: "<<mod(a,b)<<endl;
                 
                 break;
             case 0 :
